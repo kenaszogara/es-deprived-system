@@ -61,19 +61,15 @@ const ButtonContainer = styled.div`
 function App() {
   const [sleep, setSleep] = useState(false);
   const [excercise, setExcercise] = useState(false);
-  const [stress, setStress] = useState(false);
   const [caffein, setCaffein] = useState(false);
   const [midnight, setMidnight] = useState(false);
-  const [blueScreen, setBlueScreen] = useState(false);
 
   const [slides, setSlides] = useState("main");
 
   const resetState = () => {
     setSleep(false);
     setExcercise(false);
-    setStress(false);
     setCaffein(false);
-    setBlueScreen(false);
     setSlides("main");
   };
 
